@@ -27,3 +27,14 @@ if int(math.sqrt(age)) == math.sqrt(age):
     print("votre age est un carre")
 else:
     print("vous n'avez rien taper")
+
+import random
+nombre = 18
+nombre_1 = int(input("entrer un nombre"))
+
+if nombre == nombre_1:
+    print("oulou")
+elif nombre != nombre_1:
+    print("heey non hahahaha")
+
+    
