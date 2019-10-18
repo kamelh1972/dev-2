@@ -37,4 +37,7 @@ if nombre == nombre_1:
 elif nombre != nombre_1:
     print("heey non hahahaha")
 
-    
+###exo4
+
+for nombre in range(100):
+    print(nombre)
