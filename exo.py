@@ -64,3 +64,11 @@ perimetre = 2*pi*rayon
 surface = pi*rayon**2
 print ("la surface du cercle",round(surface,2))
 print ("le perimetre d'un cercle",round(perimetre,2))
+
+
+###exo8
+
+def triangle (n):
+    for i in range (1,n+1,1):
+        print(i*"*")
+triangle(5)
