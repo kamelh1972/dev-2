@@ -41,3 +41,7 @@ elif nombre != nombre_1:
 
 for nombre in range(100):
     print(nombre)
+
+###exo5
+for nombre in range(0, 101, 2):
+    print(nombre)
