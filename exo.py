@@ -45,3 +45,11 @@ for nombre in range(100):
 ###exo5
 for nombre in range(0, 101, 2):
     print(nombre)
+
+###exo6
+a = 3
+b = 7
+c = 15
+debit = 10
+temps = (a*b*c)/10
+print("le temps est de {}".format(temps/10))
