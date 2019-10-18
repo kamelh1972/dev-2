@@ -53,3 +53,14 @@ c = 15
 debit = 10
 temps = (a*b*c)/10
 print("le temps est de {}".format(temps/10))
+
+###exo7
+from math import pi
+
+rayon = float(input("entrer le rayon d un cercle"))
+
+
+perimetre = 2*pi*rayon
+surface = pi*rayon**2
+print ("la surface du cercle",round(surface,2))
+print ("le perimetre d'un cercle",round(perimetre,2))
