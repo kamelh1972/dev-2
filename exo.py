@@ -67,11 +67,19 @@ print ("le perimetre d'un cercle",round(perimetre,2))
 
 
 ###exo8
-
 def triangle (n):
     for i in range (1,n+1,1):
         print(i*"*")
-triangle(5)
-
+triangle (5)
 
 ###exo9
+
+n = int(input("entre nombre"))
+for i in range (1, 100):
+      n += i
+if i%3 == 0 and i%5 ==0 :
+    print("FIZZBUZZ")
+elif i%3 == 0 :
+    print("FIZZ")
+elif i%5 == 0 :
+    print ("BUZZ")
