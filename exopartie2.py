@@ -37,3 +37,21 @@ if a%2 == 0 :
 else:
     a %2 != 0
     print("false")
+
+
+####exercice4
+while True:
+    try:
+        N = int(input("saisir un nombre entier positf"))
+        if N >0 :
+            ft=1
+            for i in range(2, N+1 ):
+                ft*=i
+            print(N, ft)
+            break
+    except ValueError:
+        continue
+    print (N)
+
+
+    pass
