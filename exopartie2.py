@@ -27,3 +27,13 @@ for i in range(0, 4):
     d = liste[3]
     print("{}\n{}\n{}\n{}\n{}".format(a, b, c, d, e))
     liste[i] = 0
+
+
+#####exercice3
+
+a = int(input("entrer un nombre"))
+if a%2 == 0 :
+    print (bool(a))
+else:
+    a %2 != 0
+    print("false")
