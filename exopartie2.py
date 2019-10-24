@@ -76,6 +76,83 @@ liste1 = [["hammiche", "kamel", "47", "1972"], ["macron", "emmanuelle", "42", "1
 def information(liste1):
     for i in range(len(liste1)):
         for j in range(len(liste1[i])):
+
             print(liste1[i][j])
 
 information(liste1)
+
+
+####exercice8
+
+liste = [14, 78, 417, 59, 36]
+print(max(liste))
+
+
+
+
+
+
+
+####exercice9
+
+
+words = " "
+taches = list()
+while words != "fin":
+    taches.append(words)
+    words =input("entrer taches a realiser")
+taches.pop(0)
+print(taches)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+######exercice9
