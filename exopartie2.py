@@ -54,4 +54,8 @@ while True:
     print (N)
 
 
-    pass
+####exercice5
+
+def remplace_tirets_par_des_underscores(user):
+    return user.replace('-', '_')
+print(remplace_tirets_par_des_underscores(input("salam alikoum entrez quelque chose: ")))
