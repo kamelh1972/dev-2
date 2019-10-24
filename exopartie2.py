@@ -59,3 +59,11 @@ while True:
 def remplace_tirets_par_des_underscores(user):
     return user.replace('-', '_')
 print(remplace_tirets_par_des_underscores(input("salam alikoum entrez quelque chose: ")))
+
+
+#####exercice6
+
+liste = ["tomate", "salade", "oignons", "mais", "fromages"]
+print("acheter les",liste[0],"en premier")
+print("acheter les",liste[-1],"en deuxième")
+print(liste[2])
