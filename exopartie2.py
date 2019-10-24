@@ -67,3 +67,15 @@ liste = ["tomate", "salade", "oignons", "mais", "fromages"]
 print("acheter les",liste[0],"en premier")
 print("acheter les",liste[-1],"en deuxième")
 print(liste[2])
+
+
+#####exercice7
+
+liste1 = [["hammiche", "kamel", "47", "1972"], ["macron", "emmanuelle", "42", "1977"]]
+
+def information(liste1):
+    for i in range(len(liste1)):
+        for j in range(len(liste1[i])):
+            print(liste1[i][j])
+
+information(liste1)
