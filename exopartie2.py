@@ -87,6 +87,14 @@ information(liste1)
 liste = [14, 78, 417, 59, 36]
 print(max(liste))
 
+####pour aller plus loin
+
+liste = ["kamel","pol","toto","gogol"]
+longueur = len(liste)
+print(longueur)
+
+
+
 
 
 
