@@ -106,6 +106,22 @@ print(taches)
 
 
 
+#### exercice7 pour aller plus loin
+
+
+
+liste = [['horlein', 'bruno', 40, 1979],  ['gossart', 'thomas', 29, 1981], ['hammiche', 'camelia', 5, 2014],  ['hammiche', 'lila', 7, 2012]]
+def tableau(liste):
+    for i in range (len(liste)):
+        for j in range(len(liste[i])):
+            print(liste[i] [j])
+tableau(liste)
+
+
+
+
+
+
 
 
 
