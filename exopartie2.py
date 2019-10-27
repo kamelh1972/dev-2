@@ -1,4 +1,4 @@
-###exercice1 echiquier
+print("exrcice1:")
 noire = "# # # # # # # #"
 blanche = ""
 print("")
@@ -12,7 +12,7 @@ print(" \"")
 print("")
 
 
-###exercice2
+print("exercice2")
 liste = [0,0,0,0]
 a = 0
 b = 0
@@ -29,8 +29,7 @@ for i in range(0, 4):
     liste[i] = 0
 
 
-#####exercice3
-
+print("exercice3")
 a = int(input("entrer un nombre"))
 if a%2 == 0 :
     print (bool(a))
@@ -38,8 +37,7 @@ else:
     a %2 != 0
     print("false")
 
-
-####exercice4
+print('exercice4')
 while True:
     try:
         N = int(input("saisir un nombre entier positf"))
@@ -54,14 +52,14 @@ while True:
     print (N)
 
 
-####exercice5
+print('exercice5')
 
 def remplace_tirets_par_des_underscores(user):
     return user.replace('-', '_')
 print(remplace_tirets_par_des_underscores(input("salam alikoum entrez quelque chose: ")))
 
 
-#####exercice6
+print('exercice6')
 
 liste = ["tomate", "salade", "oignons", "mais", "fromages"]
 print("acheter les",liste[0],"en premier")
@@ -69,7 +67,7 @@ print("acheter les",liste[-1],"en deuxième")
 print(liste[2])
 
 
-#####exercice7
+print('exercice7')
 
 liste1 = [["hammiche", "kamel", "47", "1972"], ["macron", "emmanuelle", "42", "1977"]]
 
@@ -82,27 +80,21 @@ def information(liste1):
 information(liste1)
 
 
-####exercice8
+print('exercice8')
 
 liste = [14, 78, 417, 59, 36]
 print(max(liste))
 
-####pour aller plus loin
+print('pour aller plus loin')
 
-liste = ["kamel","pol","toto","gogol"]
-longueur = len(liste)
-print(longueur)
+liste = ["kamel","pol","toto","go"]
 
-
+print(max(liste))
 
 
 
 
-
-
-
-####exercice9
-
+print('exercice9')
 
 words = " "
 taches = list()
@@ -114,16 +106,22 @@ print(taches)
 
 
 
-#### exercice7 pour aller plus loin
 
 
 
-liste = [['horlein', 'bruno', 40, 1979],  ['gossart', 'thomas', 29, 1981], ['hammiche', 'camelia', 5, 2014],  ['hammiche', 'lila', 7, 2012]]
-def tableau(liste):
-    for i in range (len(liste)):
-        for j in range(len(liste[i])):
-            print(liste[i] [j])
-tableau(liste)
+testlist =[
+     ["gossart", "thomas", 29, 1981],
+    ["horlein", "bruno", 40, 1979],
+    ["hammiche", "camelia", 5, 2014]
+]
+
+def displaylist(showlist):
+    for testlist in showlist:
+        print("-/-\-/-\-")
+        for value in testlist:
+            print(value)
+
+displaylist(testlist)
 
 
 
